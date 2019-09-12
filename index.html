@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balsakup</title>
+    <meta name="description" content="Passionné d'informatique, notamment par le développement web">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="icon" href="img/logo.png">
+    <meta name="description" content="Développeur fullstack de profession, je suis amoureux des langages du web et j'aime développer à longeur de journée">
+  </head>
+  <body class="loading">
+    <div class="loader">
+      <div class="loader__body">
+        <div class="loader__title">Chargement en cours</div>
+        <div class="loader__content">
+          <div class="pacman"></div>
+          <div class="feed"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+        </div>
+      </div>
+    </div>
+    <header id="top" class="header"></header>
+    <nav class="nav">
+      <div class="container"><a href="#top" class="nav__logo"><span>&lt;</span>Bk<span>&gt;</span></a>
+        <ul>
+          <li class="active"><a href="#about">A propos</a></li>
+          <li><a href="#skills">Compétences</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#projects">Projets</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav__toggle"><span></span></div>
+      </div>
+    </nav>
+    <div class="container content">
+      <section class="me">
+        <div class="card">
+          <div class="me__body">
+            <div class="row">
+              <div class="col-x-12 col-s-4">
+                <div class="me__avatar"><img src="img/balsakup.png" alt="Balsakup Avatar"></div>
+              </div>
+              <div class="col-x-12 col-s-8">
+                <div class="me__title"><span class="iam">Je suis</span>
+                  <h1>Balsakup <span>(Quentin Catherine)</span></h1>
+                  <h2>Développeur web</h2>
+                </div>
+                <div class="me__infos">
+                  <ul>
+                    <li><span>age</span> 22 ans</li>
+                    <li><span>adresse</span> Caen, Normandie</li>
+                    <li><span>email</span> hello@balsakup.fr</li>
+                    <li><span>Statut</span> <span class="status">Développeur</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="me__footer">
+            <nav class="social"><a href="//twitter.com/balsakup" target="_blank" class="icon-twitter"></a><a href="//instagram.com/balsakup" target="_blank" class="icon-instagram"></a><a href="//github.com/balsakup" target="_blank" class="icon-github"></a><a href="//linkedin.com/in/quentin-catherine" target="_blank" class="icon-linkedin"></a><a href="javascript:;" class="icon-facebook"></a></nav>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="section about">
+        <div class="section__title">
+          <h2 class="hidden">A propos de moi</h2>
+        </div>
+        <div class="section__action"><a href="javascript:;" onclick="alert('Mon CV n\'est pas encore disponible')" class="btn">Télécharger mon CV</a></div>
+        <div class="section__body">
+          <p>Je m'appelle Quentin CATHERINE, âgé de 22 ans, cela fait 8 ans que je suis tombé dans le monde magnifique de l'informatique. J'ai découvert ce monde en m'intéressant sur la conception des sites web. La création m'a plus, et j'ai décidé d'en faire mon métier.</p>
+          <p>Ayant obtenu un DUT Informatique et une licence pro en développement, j'ai pu acquérir de solides compétences en informatique. Autodidacte de nature, j'ai pu booster mes compétences en apprenant moi même sur internet.</p>
+        </div>
+      </section>
+      <section id="skills" class="section skills">
+        <div class="section__title">
+          <h2>Mes compétences</h2>
+        </div>
+        <div class="card">
+          <div class="section__body">
+            <div class="row">
+              <div class="col-x-12 col-m-6">
+                <div class="skill__progress">
+                  <div class="caption">
+                    <div class="language">HTML & CSS (sass, pug)</div>
+                    <div class="status">Maîtrisé</div>
+                  </div>
+                  <div class="bar">
+                    <div style="width: 100%" class="line"></div>
+                  </div>
+                </div>
+                <div class="skill__progress">
+                  <div class="caption">
+                    <div class="language">JavaScript (ES6, TypeScript)</div>
+                    <div class="status">Intermédiaire</div>
+                  </div>
+                  <div class="bar">
+                    <div style="width: 75%" class="line"></div>
+                  </div>
+                </div>
+                <div class="skill__progress">
+                  <div class="caption">
+                    <div class="language">jQuery</div>
+                    <div class="status">Intermédiaire</div>
+                  </div>
+                  <div class="bar">
+                    <div style="width: 70%" class="line"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-x-12 col-m-6">
+                <div class="skill__progress">
+                  <div class="caption">
+                    <div class="language">PHP</div>
+                    <div class="status">Maîtrisé</div>
+                  </div>
+                  <div class="bar">
+                    <div style="width: 80%" class="line"></div>
+                  </div>
+                </div>
+                <div class="skill__progress">
+                  <div class="caption">
+                    <div class="language">SQL (Oracle, MySQL, SQL Server)</div>
+                    <div class="status">Maîtrisé</div>
+                  </div>
+                  <div class="bar">
+                    <div style="width: 75%" class="line"></div>
+                  </div>
+                </div>
+                <div class="skill__progress">
+                  <div class="caption">
+                    <div class="language">NodeJS</div>
+                    <div class="status">Intermédiaire</div>
+                  </div>
+                  <div class="bar">
+                    <div style="width: 70%" class="line"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="portfolio" class="section portfolio">
+        <div class="section__title">
+          <h2>Mon portfolio</h2>
+        </div>
+        <div class="section__body">
+          <div class="alert danger">Le portfolio est vide pour l'instant</div>
+          <!--.row
+          .col-x-12.col-m-8
+              .card.big
+                  .card__header
+                      .card__image(style="background-image: url(//lorempicsum.com/up/1280/720/6)")
+                      span.card__title Portfolio
+
+                  .card__body
+                      p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quaerat ut quod officia, saepe cumque dignissimos nobis soluta ratione ipsa doloremque vero placeat optio aut libero maxime ducimus sunt laboriosam.
+                      p A veniam vitae nobis necessitatibus, autem. Molestias porro, corporis adipisci nostrum laudantium ipsa expedita earum consequatur! Fuga modi quod consequuntur quae aperiam dignissimos consectetur explicabo, autem repellendus voluptatibus, quasi voluptate.
+
+                  .card__footer
+                      a(href="#") Voir
+
+          .col-x-12.col-m-4
+              .card
+                  .card__header
+                      .card__image(style="background-image: url(//lorempicsum.com/up/1280/720/5)")
+                      span.card__title Portfolio
+
+                  .card__body
+                      p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quaerat ut quod officia, saepe cumque dignissimos nobis soluta ratione ipsa doloremque vero placeat optio aut libero maxime ducimus sunt laboriosam.
+                      p A veniam vitae nobis necessitatibus, autem. Molestias porro, corporis adipisci nostrum laudantium ipsa expedita earum consequatur! Fuga modi quod consequuntur quae aperiam dignissimos consectetur explicabo, autem repellendus voluptatibus, quasi voluptate.
+
+                  .card__footer
+                      a(href="#") Voir
+
+          .col-x-12.col-m-4
+              .card
+                  .card__header
+                      .card__image(style="background-image: url(//lorempicsum.com/up/1280/720/4)")
+                      span.card__title Portfolio
+
+                  .card__body
+                      p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quaerat ut quod officia, saepe cumque dignissimos nobis soluta ratione ipsa doloremque vero placeat optio aut libero maxime ducimus sunt laboriosam.
+                      p A veniam vitae nobis necessitatibus, autem. Molestias porro, corporis adipisci nostrum laudantium ipsa expedita earum consequatur! Fuga modi quod consequuntur quae aperiam dignissimos consectetur explicabo, autem repellendus voluptatibus, quasi voluptate.
+
+                  .card__footer
+                      a(href="#") Voir
+
+          -->
+          <div class="section__action bottom"><a href="javascript:;" class="btn">Charger plus ...</a></div>
+        </div>
+      </section>
+      <section id="projects" class="section projects">
+        <div class="section__title">
+          <h2>Mes projets</h2>
+        </div>
+        <div class="section__body">
+          <div class="row">
+            <div class="col-x-12 col-m-8">
+              <div class="card big">
+                <div class="card__header">
+                  <div style="background-image: url(https://raw.githubusercontent.com/PotatoPHP/ressources/master/PotatoPHP_Logo.png)" class="card__image"></div><span class="card__title">PotatoPHP</span>
+                </div>
+                <div class="card__body">
+                  <p>PotatoPHP est un petit framework php, orienté REST API. Celui-ci est encore en cours d'élaboration.</p>
+                  <p>Vous pourrez le retrouver sous peu. Pour plus d'information, rendez-vous sur GitHub en cliquant sur le bouton "voir"</p>
+                </div>
+                <div class="card__footer"><a href="https://github.com/PotatoPHP" target="_blank">Voir</a></div>
+              </div>
+            </div>
+            <div class="col-x-12 col-m-4">
+              <div class="card">
+                <div class="card__header">
+                  <div style="background-image: url(//lorempicsum.com/up/1280/720/5)" class="card__image"></div><span class="card__title">PAS DE PROJET</span>
+                </div>
+                <div class="card__body">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quaerat ut quod officia, saepe cumque dignissimos nobis soluta ratione ipsa doloremque vero placeat optio aut libero maxime ducimus sunt laboriosam.</p>
+                  <p>A veniam vitae nobis necessitatibus, autem. Molestias porro, corporis adipisci nostrum laudantium ipsa expedita earum consequatur! Fuga modi quod consequuntur quae aperiam dignissimos consectetur explicabo, autem repellendus voluptatibus, quasi voluptate.</p>
+                </div>
+                <div class="card__footer"><a href="javascript:;">Voir</a></div>
+              </div>
+            </div>
+            <div class="col-x-12 col-m-4">
+              <div class="card">
+                <div class="card__header">
+                  <div style="background-image: url(//lorempicsum.com/up/1280/720/4)" class="card__image"></div><span class="card__title">PAS DE PROJET</span>
+                </div>
+                <div class="card__body">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quaerat ut quod officia, saepe cumque dignissimos nobis soluta ratione ipsa doloremque vero placeat optio aut libero maxime ducimus sunt laboriosam.</p>
+                  <p>A veniam vitae nobis necessitatibus, autem. Molestias porro, corporis adipisci nostrum laudantium ipsa expedita earum consequatur! Fuga modi quod consequuntur quae aperiam dignissimos consectetur explicabo, autem repellendus voluptatibus, quasi voluptate.</p>
+                </div>
+                <div class="card__footer"><a href="javascript:;">Voir</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="section__action bottom"><a href="javascript:;" class="btn">Charger plus ...</a></div>
+        </div>
+      </section>
+      <section id="blog" class="section blog">
+        <div class="section__title">
+          <h2>Mon blog</h2>
+        </div>
+        <div class="section__body">
+          <div class="alert danger">Le portfolio est vide pour l'instant</div>
+          <!--.card
+          .row
+              .col-x-12.col-m-6
+                  article.article.main
+                      .article__header(style="background-image: url(//lorempicsum.com/up/1280/720/4)")
+
+                      .article__title
+                          h2 Lorem ipsum dolor sit amet
+
+                      ul.article__meta
+                          li
+                              span.icon-date
+                              | 26 Juin 2016
+                          li
+                              span.icon-user
+                              a(href="#") Balsakup
+                          li
+                              span.icon-category
+                              a(href="#") Toutes
+                          li
+                              span.icon-category
+                              a(href="#") Lorem
+
+                      .article__body
+                          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae commodi, reiciendis. Odit voluptate consectetur esse sequi ut quam soluta, totam dignissimos dicta, perspiciatis quia quas explicabo eos, praesentium, fuga aspernatur?
+                          p Totam id nisi accusamus, dicta obcaecati consequatur pariatur fuga delectus harum voluptatum, qui eius, ab impedit. Quaerat exercitationem a unde ab possimus expedita quae nulla, error aspernatur ducimus alias odio.
+
+              .col-x-12.col-m-6
+                  .article_list.scrolled
+                      article.article
+                          .article__header(style="background-image: url(//lorempicsum.com/up/640/360/4)")
+
+                          .article__title
+                              h2 Lorem ipsum dolor sit amet
+
+                          ul.article__meta
+                              li
+                                  span.icon-date
+                                  | 26 Juin 2016
+                              li
+                                  span.icon-user
+                                  a(href="#") Balsakup
+                              li
+                                  span.icon-category
+                                  a(href="#") Toutes
+                              li
+                                  span.icon-category
+                                  a(href="#") Lorem
+
+                      article.article
+                          .article__header(style="background-image: url(//lorempicsum.com/up/640/360/4)")
+
+                          .article__title
+                              h2 Lorem ipsum dolor sit amet
+
+                          ul.article__meta
+                              li
+                                  span.icon-date
+                                  | 26 Juin 2016
+                              li
+                                  span.icon-user
+                                  a(href="#") Balsakup
+                              li
+                                  span.icon-category
+                                  a(href="#") Toutes
+                              li
+                                  span.icon-category
+                                  a(href="#") Lorem
+
+                      article.article
+                          .article__header(style="background-image: url(//lorempicsum.com/up/640/360/4)")
+
+                          .article__title
+                              h2 Lorem ipsum dolor sit amet
+
+                          ul.article__meta
+                              li
+                                  span.icon-date
+                                  | 26 Juin 2016
+                              li
+                                  span.icon-user
+                                  a(href="#") Balsakup
+                              li
+                                  span.icon-category
+                                  a(href="#") Toutes
+                              li
+                                  span.icon-category
+                                  a(href="#") Lorem
+
+                      article.article
+                          .article__header(style="background-image: url(//lorempicsum.com/up/640/360/4)")
+
+                          .article__title
+                              h2 Lorem ipsum dolor sit amet
+
+                          ul.article__meta
+                              li
+                                  span.icon-date
+                                  | 26 Juin 2016
+                              li
+                                  span.icon-user
+                                  a(href="#") Balsakup
+                              li
+                                  span.icon-category
+                                  a(href="#") Toutes
+                              li
+                                  span.icon-category
+                                  a(href="#") Lorem
+
+                      article.article
+                          .article__header(style="background-image: url(//lorempicsum.com/up/640/360/4)")
+
+                          .article__title
+                              h2 Lorem ipsum dolor sit amet
+
+                          ul.article__meta
+                              li
+                                  span.icon-date
+                                  | 26 Juin 2016
+                              li
+                                  span.icon-user
+                                  a(href="#") Balsakup
+                              li
+                                  span.icon-category
+                                  a(href="#") Toutes
+                              li
+                                  span.icon-category
+                                  a(href="#") Lorem
+
+                      article.article
+                          .article__header(style="background-image: url(//lorempicsum.com/up/640/360/4)")
+
+                          .article__title
+                              h2 Lorem ipsum dolor sit amet
+
+                          ul.article__meta
+                              li
+                                  span.icon-date
+                                  | 26 Juin 2016
+                              li
+                                  span.icon-user
+                                  a(href="#") Balsakup
+                              li
+                                  span.icon-category
+                                  a(href="#") Toutes
+                              li
+                                  span.icon-category
+                                  a(href="#") Lorem
+
+                      article.article
+                          .article__header(style="background-image: url(//lorempicsum.com/up/640/360/4)")
+
+                          .article__title
+                              h2 Lorem ipsum dolor sit amet
+
+                          ul.article__meta
+                              li
+                                  span.icon-date
+                                  | 26 Juin 2016
+                              li
+                                  span.icon-user
+                                  a(href="#") Balsakup
+                              li
+                                  span.icon-category
+                                  a(href="#") Toutes
+                              li
+                                  span.icon-category
+                                  a(href="#") Lorem
+
+          -->
+        </div>
+        <div class="section__action bottom"><a href="javascript:;" onclick="alert('Le blog n\'est pas encore disponible')" class="btn">Voir le blog</a></div>
+      </section>
+      <section id="contact" class="section contact">
+        <div class="section__title">
+          <h2>Me contacter</h2>
+        </div>
+        <div class="section__body">
+          <div class="alert danger">Le site étant encore en construction, le formulaire ne fonctionne pas</div>
+          <div class="row">
+            <div class="col-x-12 col-m-6">
+              <div class="card">
+                <form class="form">
+                  <div class="form__group">
+                    <label for="name" class="form__label">
+                      <svg viewBox="0 0 370 50" preserveAspectRatio="none">
+                        <path d="M0 50 L370 50 L370 0 L0 0 Z"></path>
+                      </svg><span>Votre nom</span>
+                    </label>
+                    <input type="text" name="name" id="name" class="form__control">
+                  </div>
+                  <div class="form__group">
+                    <label for="email" class="form__label">
+                      <svg viewBox="0 0 370 50" preserveAspectRatio="none">
+                        <path d="M0 50 L370 50 L370 0 L0 0 Z"></path>
+                      </svg><span>Votre email</span>
+                    </label>
+                    <input type="email" name="email" id="email" class="form__control">
+                  </div>
+                  <div class="form__group">
+                    <label for="subject" class="form__label">
+                      <svg viewBox="0 0 370 50" preserveAspectRatio="none">
+                        <path d="M0 50 L370 50 L370 0 L0 0 Z"></path>
+                      </svg><span>Votre sujet</span>
+                    </label>
+                    <input type="text" name="subject" id="subject" class="form__control">
+                  </div>
+                  <div class="form__group textarea">
+                    <label for="message" class="form__label">
+                      <svg viewBox="0 0 370 50" preserveAspectRatio="none">
+                        <path d="M0 50 L370 50 L370 0 L0 0 Z"></path>
+                      </svg><span>Votre message</span>
+                    </label>
+                    <textarea name="message" id="message" class="form__control"></textarea>
+                  </div>
+                  <div class="form__action">
+                    <button type="submit" class="btn">Envoyer</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="col-x-12 col-m-6">
+              <div class="card">
+                <ul class="contact__infos">
+                  <li><span>email</span>hello@balsakup.fr</li>
+                  <li><span>twitter</span><a href="//twitter.com/balsakup" target="_blank">Balsakup</a></li>
+                  <li><span>Skype</span><a href="javascript:;">Balsakup</a></li>
+                  <li><span>Facebook</span><a href="javascript:;">Balsakup</a></li>
+                </ul>
+                <div class="contact__map">
+                  <div id="map"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+    <footer class="footer">
+      <div class="container"><span>Développé avec &hearts; par Balsakup</span></div>
+    </footer>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyAYqMPg7ZS7vQhOIswT6mSvM3r8G9SgD8s&amp;callback=document.initMap"></script>
+    <!-- Matomo -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="https://collector.balsakup.fr/";
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['setSiteId', '1']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <noscript><p><img src="https://collector.balsakup.fr/piwik.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+    <!-- End Matomo Code -->
+  </body>
+</html>
